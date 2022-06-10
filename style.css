@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*, *:after, *:before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active{outline: none}
+a:focus, a:active{outline: none}
+nav, footer, header, aside{display: block}
+html, body{
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input, button, textarea {font-family: inherit}
+input::-ms-clear{display: none}
+button{cursor:pointer}
+button::-moz-focus-inner{padding: 0;bottom: 0}
+a, a:visited{text-decoration: none}
+a:hover{text-decoration: none}
+ul, li{list-style: none}
+img{vertical-align: top}
+h1, h2, h3, h4, h5, h6{font-size: inherit; font-weight: 400;}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+.wrapper {
+}
+
+.header {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.header_title {
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.header_subtitle {
+    margin: 20px auto 0 auto;
+    font-size: 20px;
+    width: 650px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.main {
+ }
+
+.main_photo {
+    margin: 0 auto 0 auto;
+    background-color: white;
+    width: 700px;
+    box-shadow: 0 0 30px silver;
+}
+
+.main_photo img {
+    width: 688px;
+    margin: 6px;
+}
+
+.main_p {
+    margin-top: 30px;
+}
+
+.main_p_item {
+    margin: 0 auto 20px auto;
+    width: 650px;
+    font-size: 16px;
+    line-height: 25px;
+    color: gray;
+}
+.main_p_item:last-child {
+    margin-bottom: 0;
+}
+
+.item2 {
+    color: darkcyan;
+    font-style: oblique;
+}
+
+.item3 {
+    font-weight: 700;
+}
+
+.item4 {
+    color: gray;
+    opacity: 0.8;
+    text-decoration: line-through;
+}
+
+.main_check {
+    margin: 30px auto 30px auto;
+    width: 650px;
+}
+
+.check_item {
+    background: url("https://cdn-icons-png.flaticon.com/512/37/37558.png") left/20px 20px no-repeat;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.main_button {
+    margin: 0 auto 0 auto;
+    width: 650px;
+}
+
+.button {
+    font-size: 10px;
+    width: 130px;
+    height: 30px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 0 15px rgba(129, 182, 180, 0.5);
+    padding-right: 20px;
+    background: url("https://img.icons8.com/flat-round/344/right.pnggit init")
+        rgb(129, 182, 180) no-repeat 100px 5px/20px 20px;
+}
